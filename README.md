@@ -87,19 +87,10 @@ The project follows the standard Next.js App Router structure:
     Create a `.env.local` file in the root directory and add the following variables:
 
     ```env
-    GEMINI_API_KEY = ""
-    POSTGRES_URL = ""
-    POSTGRES_USER = " "
-    POSTGRES_HOST = " "
-    SUPABASE_JWT_SECRET = " "
-    NEXT_PUBLIC_SUPABASE_ANON_KEY = " "
-    POSTGRES_PRISMA_URL = " "
-    POSTGRES_PASSWORD = " "
-    POSTGRES_DATABASE = " "
-    SUPABASE_URL = " "
-    NEXT_PUBLIC_SUPABASE_URL = " "
-    SUPABASE_SERVICE_ROLE_KEY = " "
-    POSTGRES_URL_NON_POOLING = " "
+    GEMINI_API_KEY=your_key_here
+    NEXT_PUBLIC_SUPABASE_URL=your_url_here
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key_here
+    SUPABASE_SERVICE_ROLE_KEY=your_key_here
     ```
 
 ### Database Setup (Supabase)
